@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 # user jab naya task bayega, tub hum sirf name maange
 class TaskCreate(BaseModel):
@@ -8,7 +8,7 @@ class TaskCreate(BaseModel):
 class TaskResponse(BaseModel):
     id: int
     name: str
-
+    model_config = ConfigDict(from_attributes=True)
     # class Config:
     #        from_attributes = True  # Yeh Pydantic ko batata hai ki SQLAlchemy model ko kaise read karna hai
 
@@ -21,5 +21,4 @@ class UserResponse(BaseModel):
     id:int
     email:str
 
-    class Config:
-        from_attributes = True 
+    model_config = ConfigDict(from_attributes=True)

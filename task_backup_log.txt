@@ -4,3 +4,4 @@ User test@mail.com added task: “There are only two ways to live your life. One i
 User test@mail.com added task: “The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”
 User test@mail.com added task: “Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”
 User test@mail.com added task: backend api
+User testuser_bxrcrn@gmail.com added task: Test integration task for portfolio
