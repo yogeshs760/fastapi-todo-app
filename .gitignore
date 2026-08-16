@@ -1,0 +1,13 @@
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+
+# Database and Secrets
+todo.db
+sync_data.json
+client_secrets.json
+.env
